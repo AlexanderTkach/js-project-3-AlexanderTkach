@@ -1,0 +1,43 @@
+body {
+    background-image: url("../images/background2.jpg");
+    background-size: 1536px 864px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.content {
+    margin: 2rem;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+}
+.navbar-item {
+    margin-right: 2rem;
+}
+.avatar {
+    width: 20rem;
+    border-radius: 50%;
+}
+.soc-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+.soc-media-logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+.video {
+    float: right;
+}
