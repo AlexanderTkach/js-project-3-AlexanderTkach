@@ -1,10 +1,10 @@
 body {
     background-image: url("../images/background2.jpg");
-    background-size: 1536px 864px;
+    background-size: 1358px 942px;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .content {
     margin: 2rem;
@@ -24,7 +24,7 @@ a {
     margin-right: 2rem;
 }
 .avatar {
-    width: 20rem;
+    width: 10rem;
     border-radius: 50%;
 }
 .soc-media {
@@ -39,5 +39,28 @@ a {
     margin-right: 1rem;
 }
 .video {
-    float: right;
+    display: flex;
+    justify-content: center;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    border: 5px, solid, white;
+    margin: 4rem 0 4rem;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    border: 5px, solid, white;
+
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.button {
+    font-family: 'Oswald', sans-serif;
+    margin-right: 1rem;
 }
